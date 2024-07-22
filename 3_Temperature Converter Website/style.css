@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url(pexels-andre-furtado-43594-1162251.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 10rem;
+    color: rgb(0, 255, 234);
+}
+
+.units {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.panel {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    min-width: 15rem;
+    height: 15rem;
+    position: relative;
+    background: transparent;
+    backdrop-filter: blur(50px);
+}
+
+.bg-unit {
+    margin: 0;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+    z-index: 0;
+    pointer-events: none;
+    color: #304241;
+}
+
+.panel h2,
+.panel input {
+    position: relative;
+}
+
+.panel input::-webkit-outer-spin-button,
+.panel input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.panel input {
+    border: none;
+    padding: 1px;
+    background: none;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 4rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: wheat;
+}
+
+.panel input:focus {
+    outline: none;
+}
